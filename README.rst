@@ -1,4 +1,4 @@
-Haru.io admin
+Haru.io main site
 
 Xitrum projects require Java 7+.
 

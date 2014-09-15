@@ -1,35 +1,1086 @@
 <!DOCTYPE html>
-<html lang="en" data-ng-app="app">
-<head>
-  <meta charset="utf-8" />
-  <title>Be Angular | Bootstrap Admin Web App with AngularJS</title>
-  <meta name="description" content="app, web app, responsive, responsive layout, admin, admin panel, admin dashboard, flat, flat ui, ui kit, AngularJS, ui route, charts, widgets, components" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" href="css/animate.css" type="text/css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
-  <link rel="stylesheet" href="css/font.css" type="text/css" />
-  <link rel="stylesheet" href="css/app.css" type="text/css" />
-</head>
-<body ng-controller="AppCtrl">
-  <div class="app" ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed}" ui-view></div>
-  <!-- jQuery -->
-  <script src="js/jquery/jquery.min.js"></script>
-  <!-- Angular -->
-  <script src="js/angular/angular.min.js"></script>
-  <script src="js/angular/angular-animate.min.js"></script>
-  <script src="js/angular/angular-ui-router.min.js"></script>
-  <script src="js/angular/ui-load.js"></script>
-  <script src="js/angular/ui-jq.js"></script>
-  <script src="js/angular/ui-validate.js"></script>
-  <script src="js/angular/ui-bootstrap-tpls.min.js"></script>  
-  <!-- App -->
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
-  <!-- Lazy loading -->
-</body>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">        
+        <title>Modernus</title>
+                                                                                                                                              
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all"/>        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+        <link rel="stylesheet" type="text/css" href="css/custom.css" media="all"/>        
+                          
+    </head>    
+
+	<body>        
+    
+
+
+		<ul class="gt-top-slider js-hero-slider">
+			<li class="gt-slide hero">
+				<div class="gt-parallax js-parallax" data-background-image="images/slides/slide1.jpg" data-parallax="background">
+              
+				</div>
+				<div class="gt-fullscreen">
+					<div class="gt-row">
+						<div class="gt-cell h30-percent gt-center">
+							<a href="#"><img class="modernus-logo-large" src="images/modernus-logo-large.png" title="modernus-logo-large" alt="modernus-logo-large"/></a>
+						</div>
+					</div>
+					<div class="gt-row">
+						<div class="gt-cell h40-percent gt-center">
+							<div class="cycle-slideshow" data-cycle-slides="> .gt-subitem" data-cycle-timeout="4000">
+								<div class="gt-subitem">
+									<h1 class="gt-main-title">We are Modernus</h1>
+									<h5 class="gt-main-subtitle"><span>And we are Timeless</span></h5>
+								</div>		
+								<div class="gt-subitem">
+									<h1 class="gt-main-title">Tomorrow is today</h1>
+									<h5 class="gt-main-subtitle"><span>MODERNUS was made using FUTURE standards</span></h5>
+								</div>								
+				
+							</div>	
+							<div class="h60"></div>
+							<a class="gt-button gt-button-contrast gt-button-top" href="#services">Read More</a>
+							<a class="gt-button gt-button-contrast gt-button-top gt-color-button" href="#work">Portfolio</a>								
+						</div>
+					</div>
+					<div class="gt-row">
+						<div class="gt-cell h30-percent gt-center">
+							<a class="gt-button gt-button-contrast gt-button-top" href="#about-us">Continue</a>
+							<div class="clear h30"></div>
+							<span class="gt-top-go-down"><i class="fa fa-angle-double-down"></i></span>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li class="gt-slide">
+				<div class="gt-parallax js-parallax" data-background-image="images/slides/slide2.jpg" data-parallax="background">
+              
+				</div>
+				<div class="gt-fullscreen">
+					<div class="gt-row">
+						<div class="gt-cell h30-percent gt-center">
+							<a href="#"><img class="modernus-logo-large" src="images/modernus-logo-large.png" title="modernus-logo-large" alt="modernus-logo-large"/></a>
+						</div>
+					</div>
+					<div class="gt-row">
+						<div class="gt-cell h40-percent gt-center">
+							<div class="cycle-slideshow" data-cycle-slides="> .gt-subitem" data-cycle-timeout="4000">
+								<div class="gt-subitem">
+									<h4 class="gt-main-subtitle">We’re offering you nothing less than</h4>
+									<h1 class="gt-main-title">Quality Services</h1>
+									<h5 class="gt-main-subtitle"><span>Design<span class="gt-extra-pad">/</span>Development<span class="gt-extra-pad">/</span>Marketing</span></h5>
+								</div>	
+								<div class="gt-subitem">
+									<h4 class="gt-main-subtitle">Quality services mixed with</h4>
+									<h1 class="gt-main-title">Huge Experience</h1>
+									<h5 class="gt-main-subtitle"><span>Research<span class="gt-extra-pad">/</span>Prototyping<span class="gt-extra-pad">/</span>Conversion</span></h5>
+								</div>									
+							</div>						
+						</div>
+					</div>
+					<div class="gt-row">
+						<div class="gt-cell h30-percent gt-center">
+							<a class="gt-button gt-button-contrast gt-button-top" href="#about-us">Continue</a>
+							<div class="clear h30"></div>
+							<span class="gt-top-go-down"><i class="fa fa-angle-double-down"></i></span>
+						</div>
+					</div>
+				</div>
+			</li>	
+			
+			<li class="gt-slide hero">
+				<div class="gt-parallax js-parallax" data-background-image="images/slides/slide3.jpg" data-parallax="background">
+             
+				</div>
+				<div class="gt-fullscreen">
+					<div class="gt-row">
+						<div class="gt-cell h30-percent gt-center">
+							<a href="#"><img class="modernus-logo-large" src="images/modernus-logo-large.png" title="modernus-logo-large" alt="modernus-logo-large"/></a>
+						</div>
+					</div>
+					<div class="gt-row">
+						<div class="gt-cell h40-percent gt-center">
+							<div class="cycle-slideshow" data-cycle-slides="> .gt-subitem" data-cycle-timeout="4000">
+								<div class="gt-subitem">
+									<h1 class="gt-main-title gt-main-title-border">Easy Flow</h1>
+									<h5 class="gt-main-subtitle-on-border"><span>For Easier Creation</span></h5>
+								</div>								
+								<div class="gt-subitem">
+									<h1 class="gt-main-title gt-main-title-border">Creativity</h1>
+									<h5 class="gt-main-subtitle-on-border"><span>With positive flow</span></h5>
+								</div>						
+							</div>							
+						
+						</div>
+					</div>
+					<div class="gt-row">
+						<div class="gt-cell h30-percent gt-center">
+							<a class="gt-button gt-button-contrast gt-button-top" href="#about-us">Continue</a>
+							<div class="clear h30"></div>
+							<span class="gt-top-go-down"><i class="fa fa-angle-double-down"></i></span>
+						</div>
+					</div>
+				</div>
+			</li>			
+
+			<li class="gt-top-slider-pager-outer">
+				<div class="gt-top-slider-pager"><a data-slide="1" class="pager-active"></a><a data-slide="2"></a><a data-slide="3"></a></div>
+			</li>	
+	 
+		</ul>
+
+	
+    
+		<nav role="navigation" class="navbar navbar-default" id="gt-header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button data-target="#header-navigation" data-toggle="collapse" class="navbar-toggle" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a href="" class="navbar-brand">
+						<img alt="Modernus" src="images/modernus-logo.png">
+					</a>
+				</div>
+					
+
+				<div id="header-navigation" class="collapse navbar-collapse header-navigation">
+
+					<ul class="nav navbar-nav navbar-right" id="main-menu">
+						<li class="active"><a href="">Home</a></li>
+						<li><a href="#about-us">About Us</a></li>  
+						<li><a href="#services">Services</a></li>
+						<li><a href="#work">Work</a></li>     
+						<li class="dropdown"><a href="#journal" class="dropdown-toggle" data-toggle="dropdown">Journal</a>
+							<ul class="dropdown-menu">
+								<li class="gt-top-arrow"></li>
+								<li><a href="#journal">Blog Section</a></li>
+								<li><a href="blog-list.html">Blog List</a></li>
+								<li><a href="blog-post.html">Blog Post</a></li>		
+								<li><a href="shortcodes.html">Shortcodes</a></li>	                                	
+							</ul>							
+						</li>  
+   						<li><a href="#contact-us">Contact Us</a></li>     	
+					</ul>						
+					
+					<ul class="nav navbar-nav" id="social-menu">
+																								
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>  
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>   
+					</ul>
+
+					<div class="pull-right"></div>						
+					
+				</div>
+
+			</div>
+		</nav>
+		<div class="floater"></div>	    
+
+		
+
+		
+		
+        <section id="about-us">
+            <div class="gt-section gt-padding-large">    
+                <div class="container">
+    
+
+                    <h2 class="section-title">Young & Modern</h2> 
+					<h4 class="section-title"><span>Shortly About Us</span></h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.
+                            </p>
+                        </div>  
+                        
+                        <div class="col-md-6">
+                            <div class="gt-progress-bar js-progress-bar" data-value="33">
+                                <span class="gt-progress-bar-title">Prototyping</span>
+                                <span class="gt-progress-bar-value"></span>                              
+                                <div class="gt-progress-bar-outer">
+                                    <div class="gt-progress-bar-inner"></div>         
+                                </div>                        
+                            </div>    
+                            
+                            
+                            <div class="gt-progress-bar js-progress-bar" data-value="81">
+                                <span class="gt-progress-bar-title">Web Design</span>
+                                <span class="gt-progress-bar-value"></span>                              
+                                <div class="gt-progress-bar-outer">
+                                    <div class="gt-progress-bar-inner"></div>         
+                                </div>                        
+                            </div>      
+                            
+                            <div class="gt-progress-bar js-progress-bar" data-value="54">
+                                <span class="gt-progress-bar-title">WordPress Development</span>
+                                <span class="gt-progress-bar-value"></span>                              
+                                <div class="gt-progress-bar-outer">
+                                    <div class="gt-progress-bar-inner"></div>         
+                                </div>                        
+                            </div>                                                
+                                                
+                        </div>
+                                  
+                    </div>        
+    
+                
+                </div>
+            </div>    
+ 
+        
+			<div class="gt-section gt-section-contrast">
+				<div class="gt-parallax js-parallax" data-background-image="images/backgrounds/background1.jpg" data-parallax="background">
+
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="gt-icon-counter js-counter" data-count="31544">                          
+								<i class="fa fa-coffee"></i>
+								<span class="gt-icon-counter-count"></span>
+								<span class="gt-icon-counter-title">Coffee Cups Done</span>                           
+							</div>
+						</div>   
+						<div class="col-md-3">
+							<div class="gt-icon-counter js-counter" data-count="254">                          
+								<i class="fa fa-lightbulb-o"></i>
+								<span class="gt-icon-counter-count"></span>
+								<span class="gt-icon-counter-title">Ideas Per Second</span>                           
+							</div>
+						</div>    
+						<div class="col-md-3">
+							<div class="gt-icon-counter js-counter" data-count="25291">                          
+								<i class="fa fa-headphones"></i>
+								<span class="gt-icon-counter-count"></span>
+								<span class="gt-icon-counter-title">Songs Played</span>                           
+							</div>
+						</div>    
+						<div class="col-md-3">
+							<div class="gt-icon-counter js-counter" data-count="661544">                          
+								<i class="fa fa-heart-o"></i>
+								<span class="gt-icon-counter-count"></span>
+								<span class="gt-icon-counter-title">Happy Customers</span>                           
+							</div>
+						</div>                                                                             
+					</div>            
+				</div>               
+			</div>
+			
+			<div class="gt-section gt-call-to-action-full">
+				<div class="container">
+					We would be happy to hear from you!
+					<div class="gt-call-to-action-full-buttons">
+						<a href="blog-list.html" class="gt-button gt-button-centered">Read More</a>
+						<a href="blog-list.html" class="gt-button gt-button-centered gt-color-button">Purchase Theme</a>										
+					</div>
+				</div>
+			</div>
+        
+
+			<div class="gt-section gt-padding-large">    
+				<div class="container">
+					<h2 class="section-title">Our Team</h2> 
+					<h4 class="section-title"><span>Hey! We Are Friendly</span></h4>
+              
+					<div class="row">
+						<div class="col-md-3">
+							<div class="gt-team-member">
+								<div class="gt-team-member-foto">
+									<img src="images/team/member1.jpg" alt="Member's foto"/>  
+									<div class="gt-team-member-contact">
+										<ul class="gt-socials">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>                                                                                
+										</ul>  
+										<div class="gt-git"><span>Get in touch</span></div>										
+									</div>                                                            
+								</div>
+								<span class="gt-team-member-name">John Drasca</span>
+								<span class="gt-team-member-position">CEO & Founder</span> 
+								<span class="gt-team-member-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>                          
+														
+							</div>                                                                 
+						</div>
+
+						<div class="col-md-3">
+							<div class="gt-team-member">
+								<div class="gt-team-member-foto">
+									<img src="images/team/member2.jpg" alt="Member's foto"/>  
+									<div class="gt-team-member-contact">
+										<ul class="gt-socials">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>                                                                                
+										</ul>     
+										<div class="gt-git"><span>Get in touch</span></div>												
+									</div>                                                            
+								</div>
+								<span class="gt-team-member-name">Tim Rocks</span>
+								<span class="gt-team-member-position">Creative Director</span> 
+								<span class="gt-team-member-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>                          
+														
+							</div>                                                                 
+						</div>
+						
+						<div class="col-md-3">
+							<div class="gt-team-member">
+								<div class="gt-team-member-foto">
+									<img src="images/team/member3.jpg" alt="Member's foto"/>  
+									<div class="gt-team-member-contact">
+										<ul class="gt-socials">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>                                                                                
+										</ul>    
+										<div class="gt-git"><span>Get in touch</span></div>												
+									</div>                                                            
+								</div>
+								<span class="gt-team-member-name">Mike Da-Coda</span>
+								<span class="gt-team-member-position">Wordpress Ninja</span> 
+								<span class="gt-team-member-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>                          
+														
+							</div>                                                                 
+						</div>
+						
+						<div class="col-md-3">
+							<div class="gt-team-member">
+								<div class="gt-team-member-foto">
+									<img src="images/team/member4.jpg" alt="Member's foto"/>  
+									<div class="gt-team-member-contact">
+										<ul class="gt-socials">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>                                                                                
+										</ul>  
+										<div class="gt-git"><span>Get in touch</span></div>												
+									</div>                                                            
+								</div>
+								<span class="gt-team-member-name">Anny Nanny</span>
+								<span class="gt-team-member-position">User Experience Angel</span> 
+								<span class="gt-team-member-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>                          
+														
+							</div>                                                                 
+						</div>                                                         
+					</div>
+				</div>
+			</div>   
+      
+        
+			<div class="gt-section gt-section-contrast gt-no-bottom-pad">
+				<div class="gt-parallax js-parallax" data-background-image="images/backgrounds/background2.jpg" data-parallax="background">
+
+				</div>
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-7">
+							<img src="images/elements/element1.png" class="gt-col-image" alt="Element 1"/>                    
+						</div> 
+						<div class="col-md-5">
+							<div class="clear h20"></div>
+							<img src="images/modernus-logo-medium.png" alt="modernus-logo-medium"/>
+							<div class="clear h10"></div>
+							<h1 class="h1-left h1-lower">Buy Modernus Now</h1>  
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p> 
+							<a class="gt-rounded" href="#">Purchase Now</a>                 
+						</div>               
+					</div>            
+				</div>
+			</div>  
+        </section>   
+			
+        <section id="services">
+            <div class="gt-section gt-padding-large">    
+                <div class="container">
+                    <h2 class="section-title">Our Services</h2>         
+                    <h4 class="section-title"><span>How Can We Help You?</span></h4>
+          
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="h100"></div>
+                            <div class="gt-feature gt-feature-right">
+                                <a class="gt-feature-oval">
+                                    <i class="fa fa-paper-plane-o"></i>
+                                </a>
+                                <span class="gt-feature-title">Prototyping</span>
+                                <span class="gt-feature-content">
+                                    It's better to have your prototype ready before we start                            
+                                </span>                                      
+                            </div>
+							<div class="clear h30"></div>
+                            
+    
+                            <div class="gt-feature gt-feature-right">
+                                <a class="gt-feature-oval">
+                                    <i class="fa fa-pencil"></i>
+                                </a>
+                                <span class="gt-feature-title">Web Design</span>
+                                <span class="gt-feature-content">
+                                    Good design means a lot. Don’t underestimate it
+                                </span>                                                    
+                            </div>
+							<div class="clear h30"></div>							
+    
+                            <div class="gt-feature gt-feature-right">
+                                <a class="gt-feature-oval">
+                                    <i class="fa fa-keyboard-o"></i>
+                                </a>
+                                <span class="gt-feature-title">Development</span>
+                                <span class="gt-feature-content">
+                                    We have a strong development team.We can create any app you want
+                                </span>                                                    
+                            </div>  
+                            
+                            <div class="clear h50"></div>                                                                 
+                            
+                        </div>
+                        
+    
+                        
+                        
+                        <div class="col-md-4">
+                            <img src="images/elements/element3.png" class="gt-col-image" alt="Element 3"/>  
+                        </div>
+                        <div class="col-md-4">
+                            <div class="h100"></div>
+                            <div class="gt-feature gt-feature-left">
+                                <a class="gt-feature-oval">
+                                    <i class="fa fa-wordpress"></i>
+                                </a>
+                                <span class="gt-feature-title">Wordpress</span>
+                                <span class="gt-feature-content">
+                                    Wordpress is our favourite CMS system. Flexible, reliable, Best                           
+                                </span>                                      
+                            </div>
+							<div class="clear h50"></div>							
+                            
+    
+                            <div class="gt-feature gt-feature-left">
+                                <a class="gt-feature-oval">
+                                    <i class="fa fa-bullhorn"></i>
+                                </a>
+                                <span class="gt-feature-title">Marketing</span>
+                                <span class="gt-feature-content">
+                                    When you have your product ready you need to show it to the world
+                                </span>                                                    
+                            </div>
+							<div class="clear h30"></div>							
+    
+                            <div class="gt-feature gt-feature-left">
+                                <a class="gt-feature-oval">
+                                    <i class="fa fa-child"></i>
+                                </a>
+                                <span class="gt-feature-title">Social Media</span>
+                                <span class="gt-feature-content">
+                                    You need to go social if you want to succeed. We will make this easy
+                                </span>                                                    
+                            </div>
+                            
+                            <div class="clear h50"></div>                                                                                                  
+                                                
+                        </div>                    
+                                  
+                    </div>  
+
+					<div class="clear h60"></div>
+					
+					<div class="row">
+						<div class="col-md-3">
+							<div class="gt-pricing-item">
+								<div class="gt-pricing-title">Starter</div>
+								<div class="gt-pricing-price-outer">  
+    								<div class="gt-pricing-price">9.95</div>
+    								<div class="gt-pricing-per">$/MO</div>
+    							</div>
+								<ul class="gt-pricing-features">
+									<li>24/7 Customer Support</li>
+									<li>50 GB Storage</li>
+									<li>2 GB Bandwidth</li>
+									<li>1 Year Upgrades</li>
+									<li>Unlimited Users</li>
+								</ul>
+								<div class="gt-pricing-button-outer">
+									<a class="gt-pricing-button" href="#">Sign up Now!</a>
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3">
+							<div class="gt-pricing-item">
+								<div class="gt-pricing-title">Medium</div>
+							    <div class="gt-pricing-price-outer">  								
+    								<div class="gt-pricing-price">19.95</div>
+    								<div class="gt-pricing-per">$/MO</div>
+							    </div>
+								<ul class="gt-pricing-features">
+									<li>24/7 Customer Support</li>
+									<li>50 GB Storage</li>
+									<li>2 GB Bandwidth</li>
+									<li>1 Year Upgrades</li>
+									<li>Unlimited Users</li>
+								</ul>
+								<div class="gt-pricing-button-outer">
+									<a class="gt-pricing-button" href="#">Sign up Now!</a>
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3">
+							<div class="gt-pricing-item">
+								<div class="gt-pricing-top-title-outer">
+									<div class="gt-pricing-top-title">Best Value</div>
+								</div>
+								<div class="gt-pricing-title">Pro</div>
+							    <div class="gt-pricing-price-outer">  								
+    								<div class="gt-pricing-price">29.95</div>
+    								<div class="gt-pricing-per">$/MO</div>
+    							</div>
+								<ul class="gt-pricing-features">
+									<li>24/7 Customer Support</li>
+									<li>50 GB Storage</li>
+									<li>2 GB Bandwidth</li>
+									<li>1 Year Upgrades</li>
+									<li>Unlimited Users</li>
+								</ul>
+								<div class="gt-pricing-button-outer">
+									<a class="gt-pricing-button" href="#">Sign up Now!</a>
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3">
+							<div class="gt-pricing-item">
+
+    							<div class="gt-pricing-title">Platinum</div>
+							    <div class="gt-pricing-price-outer">    								
+    								<div class="gt-pricing-price">49.95</div>
+								    <div class="gt-pricing-per">$/MO</div>    								
+								</div>
+								<ul class="gt-pricing-features">
+									<li>24/7 Customer Support</li>
+									<li>50 GB Storage</li>
+									<li>2 GB Bandwidth</li>
+									<li>1 Year Upgrades</li>
+									<li>Unlimited Users</li>
+								</ul>
+								<div class="gt-pricing-button-outer">
+									<a class="gt-pricing-button" href="#">Sign up Now!</a>
+								</div>
+							</div>
+						</div>							
+					</div>
+    
+                
+                </div>
+            </div>
+        </section>
+        
+        <section id="work">
+            <div class="gt-section gt-section-contrast gt-no-bottom-pad">
+                <div class="gt-parallax js-parallax" data-background-image="images/backgrounds/background3.jpg" data-parallax="background">
+
+                </div>
+                
+                <div class="container">         
+                    <div class="row">       
+                        <div class="col-md-12">
+                            <h2 class="section-title">Our Work</h2>						
+                            <h4 class="section-title"><span>How We Do It?</span></h4>
+                        </div>
+                    </div>                          
+                </div>
+            </div>     
+            
+            
+            <div class="gt-section gt-padding-large">    
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="gt-tabs isotope-filter" data-filter-id="our-work">
+                                <li class="active"><a href="#" data-filter="*">All</a></li>
+                                <li><a href="#" data-filter=".creative">Creative</a></li>
+                                <li><a href="#" data-filter=".development">Development</a></li>
+                                <li><a href="#" data-filter=".marketing">Marketing</a></li>                                                                                          
+                            </ul>
+                        </div>                
+                    </div>
+                    
+                    <div class="row gt-projects" id="our-work">
+                        <div class="col-md-4 marketing">
+                            <div class="gt-project-item">
+                                <div class="gt-project-item-distance">
+                                    <img src="images/projects/project1.jpg" alt="Project 1"/>
+                                </div>
+                                <span class="gt-project-item-title">Stationery</span>
+                                <span class="gt-project-item-category">Marketing</span>
+                                <div class="gt-project-item-button-outer">
+                                    <a class="gt-project-item-button js-ajax-popup" href="project1.html">View Project</a>
+                                </div>                             
+                            </div>                  
+                        </div>
+                        <div class="col-md-4 creative marketing">
+                            <div class="gt-project-item">
+                                <div class="gt-project-item-distance">                            
+                                    <img src="images/projects/project2.jpg" alt="Project 2"/>
+                                </div>
+                                <span class="gt-project-item-title">Coffe Mugs</span>
+                                <span class="gt-project-item-category">Creative / Marketing</span>
+                                <div class="gt-project-item-button-outer">
+                                    <a class="gt-project-item-button js-ajax-popup" href="project2.html">View Project</a>
+                                </div>                             
+                            </div>                  
+                        </div>
+                        <div class="col-md-4 development">
+                            <div class="gt-project-item">
+                                <div class="gt-project-item-distance">                            
+                                    <img src="images/projects/project3.jpg" alt="Project 3"/>
+                                </div>
+                                <span class="gt-project-item-title">Dark Dashboard</span>
+                                <span class="gt-project-item-category">Development</span>
+                                <div class="gt-project-item-button-outer">
+                                    <a class="gt-project-item-button js-ajax-popup" href="project3.html">View Project</a>
+                                </div>                             
+                            </div>                  
+                        </div>
+                        <div class="col-md-4 creative">
+                            <div class="gt-project-item">
+                                <div class="gt-project-item-distance">                            
+                                    <img src="images/projects/project4.jpg" alt="Project 4"/>
+                                </div>
+                                <span class="gt-project-item-title">Light Prototypes</span>
+                                <span class="gt-project-item-category">Creative</span>
+                                <div class="gt-project-item-button-outer">
+                                    <a class="gt-project-item-button js-ajax-popup" href="project4.html">View Project</a>
+                                </div>                             
+                            </div>                  
+                        </div>  
+                        <div class="col-md-4 development marketing">
+                            <div class="gt-project-item">
+                                <div class="gt-project-item-distance">                            
+                                    <img src="images/projects/project5.jpg" alt="Project 5"/>
+                                </div>
+                                <span class="gt-project-item-title">Logo App</span>
+                                <span class="gt-project-item-category">Development / Marketing</span>
+                                <div class="gt-project-item-button-outer">
+                                    <a class="gt-project-item-button js-ajax-popup" href="project5.html">View Project</a>
+                                </div>                             
+                            </div>                  
+                        </div>
+                        <div class="col-md-4 creative marketing">
+                            <div class="gt-project-item">
+                                <div class="gt-project-item-distance">                            
+                                    <img src="images/projects/project6.jpg" alt="Project 6"/>
+                                </div>
+                                <span class="gt-project-item-title">Classic Cup</span>
+                                <span class="gt-project-item-category">Creative / Marketing</span>
+                                <div class="gt-project-item-button-outer">
+                                    <a class="gt-project-item-button js-ajax-popup" href="project6.html">View Project</a>
+                                </div>                             
+                            </div>                  
+                        </div>                                                                                                                       
+                    </div>
+                </div>
+				
+				<div class="clear h50"></div>
+				<div class="container">
+					<div class="col-md-12 gt-center">
+						<a href="#" class="gt-button gt-button-centered gt-button-no-margin">Load More Projects</a>
+					</div>
+				</div>
+            </div> 
+
+			
+			<div class="gt-section gt-call-to-action-full">
+				<div class="container">
+					Do you like our work? fancy for a little chit-chat?
+					<div class="gt-call-to-action-full-buttons">
+						<a href="blog-list.html" class="gt-button gt-button-centered">Read More</a>
+						<a href="blog-list.html" class="gt-button gt-button-centered gt-color-button">Purchase Theme</a>										
+					</div>
+				</div>
+			</div>			
+        
+			<div class="gt-section gt-section-contrast">
+				<div class="gt-parallax js-parallax" data-background-image="images/backgrounds/background4.jpg" data-parallax="background">
+
+				</div>
+				
+				<div class="container">         
+					<div class="row">       
+						<div class="col-md-12">
+							<div class="gt-quotes">
+								<div class="gt-quotes-icon">
+									<i class="fa fa-quote-right"></i>                            
+								</div>
+								<ul class="gt-quotes-list cycle-slideshow" data-cycle-slides="> li" data-cycle-pager=".gt-quotes-pager">
+									<li>
+										<div class="gt-quotes-quote">
+											Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim
+										</div>
+										<div class="gt-quotes-author">
+											John Doe - CEO/Megasoft                                    
+										</div>
+									</li>   
+									<li>
+										<div class="gt-quotes-quote">
+											Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim
+										</div>
+										<div class="gt-quotes-author">
+											Tim Rocks - Creative Director/Megasoft                                   
+										</div>
+									</li>    
+									<li>
+										<div class="gt-quotes-quote">
+											Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim
+										</div>
+										<div class="gt-quotes-author">
+											Mike Da-Coda - WordPres Ninja/Megasoft                                   
+										</div>
+									</li>                                                                                           
+								</ul>
+								<div class="gt-quotes-pager"></div>
+							</div>
+						</div>
+					</div>                          
+				</div>
+			</div>     
+					
+				  
+			<div class="gt-section gt-section-logos">
+				<div class="container">         
+					<div class="row">    
+						<div class="col-md-3">
+							<a class="gt-logo" href="#"><img src="images/logos/logo1.png" alt="logo 1"/></a>                    
+						</div>
+						<div class="col-md-3">
+							<a class="gt-logo" href="#"><img src="images/logos/logo2.png" alt="logo 2"/></a>                    
+						</div>
+						<div class="col-md-3">
+							<a class="gt-logo" href="#"><img src="images/logos/logo3.png" alt="logo 3"/></a>                    
+						</div>
+						<div class="col-md-3">
+							<a class="gt-logo" href="#"><img src="images/logos/logo4.png" alt="logo 4"/></a>                    
+						</div>                                        
+					</div>
+				</div>                    
+			</div>              
+        </section>  
+
+
+		
+        <section id="journal">
+			<div class="gt-section gt-padding-large">    
+				<div class="container">
+					<h2 class="section-title">Journal</h2>    
+					<h4 class="section-title"><span>From our blog</span></h4>
+           
+					<div class="row">
+						<div class="col-md-12 col-no-pad">
+							<div class="gt-blog-content js-masonry">
+								<div class="gt-blog-item-outer">
+									<div class="gt-blog-item">
+										<div class="gt-blog-image-distance">
+											<span class="gt-blog-item-date">May 27, 2014</span>											
+										</div>
+										<div class="gt-blog-item-content">
+											<span class="gt-blog-item-title">Photoshooting</span>
+											<span class="gt-blog-item-category">Travel</span>
+											<span class="gt-blog-item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>     										
+											<span class="gt-blog-item-tags">image</span>										
+										</div>
+										<div class="gt-blog-item-button-outer">
+											<a class="gt-blog-item-button" href="#">Read More</a>
+										</div>                             
+									</div>
+								</div>  
+	 
+								 <div class="gt-blog-item-outer">
+									<div class="gt-blog-item">
+										<div class="gt-blog-image-distance">									
+											<img src="images/blog/blog2.jpg" alt="Post 2"/>
+											<span class="gt-blog-item-date">May 15, 2014</span>												
+										</div>
+										<div class="gt-blog-item-content">
+											<span class="gt-blog-item-title">Huge marketing campaign awaits us!</span>
+											<span class="gt-blog-item-category">Marketing</span>
+											<span class="gt-blog-item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>     										
+											<span class="gt-blog-item-tags">future, money, promotion</span>										
+										</div>
+										<div class="gt-blog-item-button-outer">
+											<a class="gt-blog-item-button" href="#">Read More</a>
+										</div>                             
+									</div>
+								</div>  
+								
+								<div class="gt-blog-item-outer">
+									<div class="gt-blog-item">
+										<div class="gt-blog-image-distance">										
+											<img src="images/blog/blog3.jpg" alt="Post 3"/>
+											<span class="gt-blog-item-date">February 7, 2014</span>												
+										</div>
+										<div class="gt-blog-item-content">
+											<span class="gt-blog-item-title">Airport, Waiting, ideas</span>
+											<span class="gt-blog-item-category">Other</span>
+											<span class="gt-blog-item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>     										
+											<span class="gt-blog-item-tags">airport, idea</span>										
+										</div>
+										<div class="gt-blog-item-button-outer">
+											<a class="gt-blog-item-button" href="#">Read More</a>
+										</div>                             
+									</div>
+								</div>  							
+	 
+								<div class="gt-blog-item-outer">
+									<div class="gt-blog-item">
+										<div class="gt-blog-image-distance">										
+											<img src="images/blog/blog4.jpg" alt="Post 4"/>
+											<span class="gt-blog-item-date">December 13, 2014</span>												
+										</div>
+										<div class="gt-blog-item-content">
+											<span class="gt-blog-item-title">Friendly workspace</span>
+											<span class="gt-blog-item-category">Creative</span>
+											<span class="gt-blog-item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>     										
+											<span class="gt-blog-item-tags">office, job, relax</span>										
+										</div>
+										<div class="gt-blog-item-button-outer">
+											<a class="gt-blog-item-button" href="#">Read More</a>
+										</div>                             
+									</div>
+								</div>  
+
+								<div class="gt-blog-item-outer">
+									<div class="gt-blog-item">
+										<div class="gt-blog-image-distance">	                                        									
+											<img src="images/blog/blog6.jpg" alt="Post 6"/>
+											<div class="gt-dark-overlay"></div>											
+											<span class="gt-blog-item-date">November 28, 2014</span>	
+                                            <div class="gt-video-icon-outer">
+                                                <div class="gt-video-icon">
+                                                    <i class="fa fa-film"></i>
+                                                </div>
+                                            </div>
+										</div>
+										<div class="gt-blog-item-content">
+											<span class="gt-blog-item-title">Video Post</span>
+											<span class="gt-blog-item-category">Development</span>
+											<span class="gt-blog-item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>     										
+											<span class="gt-blog-item-tags">Video, HD</span>										
+										</div>
+										<div class="gt-blog-item-button-outer">
+											<a class="gt-blog-item-button" href="#">Read More</a>
+										</div>                             
+									</div>
+								</div>  
+								
+
+								<div class="gt-blog-item-outer">
+									<div class="gt-blog-item">
+										<div class="gt-blog-image-distance">										
+											<span class="gt-blog-item-date">December 6, 2014</span>												
+										</div>
+										<div class="gt-blog-item-content">
+											<div class="gt-quote">
+												<p>HO HO HO! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit.</p>
+												<div class="gt-quote-sign">
+													<i class="fa fa-quote-right"></i>
+												</div>
+											</div>										
+											<span class="gt-blog-item-title">Coffee Time</span>
+											<span class="gt-blog-item-category">Other</span>
+											<span class="gt-blog-item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi.</span>     										
+											<span class="gt-blog-item-tags">Quote, Famous</span>										
+										</div>
+										<div class="gt-blog-item-button-outer">
+											<a class="gt-blog-item-button" href="#">Read More</a>
+										</div>                             
+									</div>
+								</div> 								
+								
+							</div>                                                                       
+							
+							
+																		 
+							
+						</div>                                                                                   
+					</div>
+					
+					
+				</div>
+				<div class="clear h30"></div>
+				<div class="container">
+					<div class="col-md-12 gt-center">
+						<a class="gt-button gt-button-centered gt-button-no-margin" href="blog-list.html">Read All Entries</a>
+					</div>
+				</div>
+			</div>
+
+        
+			<div class="gt-section gt-section-contrast">
+				<div class="gt-parallax js-parallax" data-background-image="images/backgrounds/background7.jpg" data-parallax="background">
+
+				</div>
+				
+				<div class="container">         
+					<div class="row">       
+						<div class="col-md-12">
+							<div class="gt-twitter">
+								<div class="gt-twitter-icon">
+									<i class="fa fa-twitter"></i>                            
+								</div>
+
+								<div class="gt-twitter-list js-twitter-feed" data-max-items="3" data-username="GooseThemes">
+                                																					   
+								</div>
+								<div class="gt-twitter-pager"></div>
+							</div>
+						</div>
+					</div>                          
+				</div>
+			</div>  
+		</section>
+		
+		
+		<section id="contact-us">	
+
+			<div class="gt-section gt-call-to-action-full gt-section-contrast">
+				<div class="container">
+					Get in touch with Us!
+					<div class="gt-call-to-action-full-buttons">
+						<a href="blog-list.html" class="gt-button gt-button-centered">Read More</a>
+						<a href="blog-list.html" class="gt-button gt-button-centered gt-color-button">Purchase Theme</a>										
+					</div>
+				</div>
+			</div>		
+		
+			<div class="gt-section gt-map-launcher" data-launch-id="contact-map">
+				<div class="container">         
+					<div class="row">       
+						<div class="col-md-12">
+							Locate Us On Map <i class="fa fa-angle-down"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="gt-section gt-map-content" id="contact-map" data-address="Haltern am See, Weseler Str. 151">
+
+			</div>
+
+			<div class="gt-section gt-section-contrast gt-contact">
+				
+				<div class="container">         
+					<div class="row">      
+						<div class="col-md-12">
+							<h2 class="section-title">Contact Us</h2>							
+							<h4 class="section-title"><span>Get In Touch</span></h4>										
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<ul class="gt-contact-list">
+								<li>
+									<div class="gt-contact-list-icon"><i class="fa fa-home"></i></div>
+									<span>121 King Street, Melbourne<br/>Victoria 3000 Australia</span>
+								</li>
+								<li>
+									<div class="gt-contact-list-icon"><i class="fa fa-phone"></i></div>
+									<span>+1 (123) 4567 890&nbsp;&nbsp;&nbsp; or &nbsp;&nbsp;&nbsp;+1 (123) 4567 891<br/>example@example.com<br/>www.goosethemes.com</span>
+								</li>
+								<li>
+									<div class="gt-contact-list-icon"><i class="fa fa-share-alt"></i></div>
+							        <div class="gt-footer-socials-distance">
+										<ul class="gt-footer-socials">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>							
+											
+										</ul>
+                                    </div>																
+								</li>	
+									
+							</ul>
+							<div class="clear h30"></div>
+
+
+						</div>
+
+						<div class="col-md-6">
+							<form id="goose-contact-form" action="contact-form/send.php" method="post">
+								<input type="text" class="gt-footer-input gt-half-input-left" placeholder="Name *" name="name"/>						
+								<input type="text" class="gt-footer-input gt-half-input-right" placeholder="Email *" name="email"/>	
+								<div class="clear"></div>
+								<input type="text" class="gt-footer-input gt-half-input-left" placeholder="Phone" name="phone"/>								
+								<input type="text" class="gt-footer-input gt-half-input-right" placeholder="Subject" name="subject"/>
+								<textarea class="gt-footer-textarea" placeholder="Message *" name="message"></textarea>
+								<input type="submit" class="gt-footer-submit" value="Send Message"/>
+								<span class="gt-contact-form-warning goose-cf-result"></span>
+							</form>
+
+						</div>
+					</div>
+				</div>
+			<div class="gt-back-to-top-outer">
+				<a class="gt-back-to-top-button" href="#"><i class="fa fa-angle-double-up"></i></a>
+			</div>		
+			</div>
+	
+
+			<div class="gt-section gt-section-contrast">
+				<div class="gt-parallax js-parallax" data-background-image="images/backgrounds/background6.jpg" data-parallax="background">
+
+				</div>
+				<div class="container">         
+					<div class="row">       
+						<div class="col-md-12">
+							<div class="gt-center"><img src="images/modernus-logo-large.png" alt="modernus-logo-large"/></div>
+						</div>
+					</div>                          
+				</div>             
+			</div>		
+		</section>			
+		
+		<div class="gt-section gt-footer">
+            <div class="container">         
+                <div class="row">       
+                    <div class="col-md-12">		
+						Copyright 2014 &copy; GooseThemes. All Rights Reserved - goosethemes.com
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>       
+        <script type="text/javascript" src="js/jquery.parallax.min.js"></script>        
+		<script type="text/javascript" src="js/helper-plugins/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.min.js"></script>
+		<script type="text/javascript" src="js/waypoints.min.js"></script>
+		<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="js/jpreloader.min.js"></script>			
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>		
+		<script type="text/javascript" src="js/gmap3.min.js"></script>
+		<script type="text/javascript" src="contact-form/contact-form.js"></script>				
+        <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>		
+        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>     		
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>                       
+        <script type="text/javascript" src="tweetie/tweetie.js"></script>    
+        <script type="text/javascript" src="js/script.js"></script>        
+		
+    </body>
+   
+    
 </html>

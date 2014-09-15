@@ -1,6 +1,6 @@
 organization := "haru.io"
 
-name         := "haru-admin"
+name         := "haru-main"
 
 version      := "1.0-SNAPSHOT"
 
