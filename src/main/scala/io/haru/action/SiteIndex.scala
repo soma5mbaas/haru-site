@@ -5,7 +5,7 @@ import akka.dispatch.Foreach
 import xitrum.annotation.GET
 import xitrum.Action
 
-@GET("siteindex")
+@GET("SiteIndex")
 class SiteIndex extends DefaultLayout{
    def execute() {
      renderView();
