@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800,300&subset=latin,latin-ext);
+
+body, input, textarea, ul.dropdown-menu li a, h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    font-family: Raleway;
+    text-transform: uppercase;
+    letter-spacing:1px;                    
+}        
+
+p, .gt-quotes-quote, .gt-blog-item-info, .gt-twitter-tweet, .gt-contact-list, .gt-team-member-info, h3.p-title, ul.gt-pricing-features li, .gt-feature-content {
+    text-transform: none;
+    font-weight: normal;
+    font-family: open sans;
+    letter-spacing: 0;
+	font-size: 400;
+}
+
+
+ul#main-menu li.active a, .gt-twitter-tweet a, a:hover, .gt-map-launcher:hover, ul#main-menu li ul.dropdown-menu li a:hover, .gt-icon-counter i.fa, ul.gt-tabs-content li:hover, .gt-col-feature:hover .gt-col-feature-title, .gt-quotes-icon i, .gt-feature:hover .gt-feature-title {
+    color: #47b4d3 !important;
+	text-decoration: none;
+}        
+   
+.gt-progress-bar-inner, .gt-map-launcher, ul.gt-tabs li a:hover, .gt-project-item-button:hover, .gt-blog-item-button:hover, a.gt-post-button:hover, a.gt-button:hover, input[type=submit]:hover, a.gt-rounded:hover, a.gt-color-button, .gt-feature:hover .gt-feature-oval, .gt-pricing-top-title, .gt-col-feature:hover .gt-col-feature-oval, .gt-team-member-contact .gt-git span, .gt-pricing-button:hover, .gt-blog-item-date, .gt-contact-list-icon, a.gt-back-to-top-button, #jpreBar, #gt-project-menu, .gt-project-date, .gt-section-close-project, .gt-post-date, ul#social-menu li a:hover, .gt-video-icon, ul.gt-features-expandable li:hover .gt-features-expandable-icon, ul.gt-features-expandable li.active .gt-features-expandable-icon, .gt-col-feature-alt-overlay, .gt-pricing-item:hover .gt-pricing-price-outer {
+    background: #47b4d3;
+}
+
+ul.gt-tabs li a:hover, .gt-project-item-button:hover, .gt-blog-item-button:hover, a.gt-post-button:hover, a.gt-button:hover, input[type=submit]:hover, a.gt-rounded:hover, a.gt-color-button, .gt-feature:hover .gt-feature-oval, .gt-quote .gt-quote-sign, .gt-col-feature:hover .gt-col-feature-oval, .gt-call-to-action-full.gt-section-contrast a.gt-color-button, ul.gt-top-slider a.gt-button.gt-color-button, a.gt-pricing-button:hover, ul#social-menu li a:hover, ul.gt-features-expandable li:hover .gt-features-expandable-icon, ul.gt-features-expandable li.active .gt-features-expandable-icon, .gt-twitter-list ul li {
+	border-color: #47b4d3;
+}
