@@ -1,6 +1,6 @@
-organization := "tv.cntt"
+organization := "haru.io"
 
-name         := "xitrum-new"
+name         := "haru-admin"
 
 version      := "1.0-SNAPSHOT"
 
@@ -27,6 +27,9 @@ libraryDependencies += "org.webjars" % "bootstrap" % "3.2.0"
 // Scalate template engine config for Xitrum -----------------------------------
 
 libraryDependencies += "tv.cntt" %% "xitrum-scalate" % "2.2"
+
+// scala redis
+libraryDependencies += ("net.debasishg" %% "redisclient" % "2.13")
 
 // Precompile Scalate templates
 seq(scalateSettings:_*)
